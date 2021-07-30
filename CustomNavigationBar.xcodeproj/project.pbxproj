@@ -11,29 +11,10 @@
 		D869091A26B2CDE20089D924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D869091926B2CDE20089D924 /* SceneDelegate.swift */; };
 		D869092126B2CDF20089D924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D869092026B2CDF20089D924 /* Assets.xcassets */; };
 		D869092426B2CDF20089D924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D869092226B2CDF20089D924 /* LaunchScreen.storyboard */; };
-		D869092F26B2CDF20089D924 /* CustomNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D869092E26B2CDF20089D924 /* CustomNavigationBarTests.swift */; };
-		D869093A26B2CDF20089D924 /* CustomNavigationBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D869093926B2CDF20089D924 /* CustomNavigationBarUITests.swift */; };
 		D869095A26B2D28E0089D924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D869095926B2D28E0089D924 /* ViewController.swift */; };
 		D869096E26B2DE070089D924 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D869096D26B2DE070089D924 /* CustomNavigationBar.swift */; };
 		D869097F26B2E0EB0089D924 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D869097E26B2E0EB0089D924 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D869092B26B2CDF20089D924 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D869090C26B2CDE20089D924 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D869091326B2CDE20089D924;
-			remoteInfo = CustomNavigationBar;
-		};
-		D869093626B2CDF20089D924 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D869090C26B2CDE20089D924 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D869091326B2CDE20089D924;
-			remoteInfo = CustomNavigationBar;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D869091426B2CDE20089D924 /* CustomNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,12 +23,6 @@
 		D869092026B2CDF20089D924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D869092326B2CDF20089D924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D869092526B2CDF20089D924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D869092A26B2CDF20089D924 /* CustomNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D869092E26B2CDF20089D924 /* CustomNavigationBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarTests.swift; sourceTree = "<group>"; };
-		D869093026B2CDF20089D924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D869093526B2CDF20089D924 /* CustomNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D869093926B2CDF20089D924 /* CustomNavigationBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarUITests.swift; sourceTree = "<group>"; };
-		D869093B26B2CDF20089D924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D869095926B2D28E0089D924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D869096D26B2DE070089D924 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		D869097E26B2E0EB0089D924 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
@@ -61,20 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D869092726B2CDF20089D924 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D869093226B2CDF20089D924 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				D869091626B2CDE20089D924 /* CustomNavigationBar */,
-				D869092D26B2CDF20089D924 /* CustomNavigationBarTests */,
-				D869093826B2CDF20089D924 /* CustomNavigationBarUITests */,
 				D869091526B2CDE20089D924 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				D869091426B2CDE20089D924 /* CustomNavigationBar.app */,
-				D869092A26B2CDF20089D924 /* CustomNavigationBarTests.xctest */,
-				D869093526B2CDF20089D924 /* CustomNavigationBarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,24 +68,6 @@
 				D869092526B2CDF20089D924 /* Info.plist */,
 			);
 			path = CustomNavigationBar;
-			sourceTree = "<group>";
-		};
-		D869092D26B2CDF20089D924 /* CustomNavigationBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				D869092E26B2CDF20089D924 /* CustomNavigationBarTests.swift */,
-				D869093026B2CDF20089D924 /* Info.plist */,
-			);
-			path = CustomNavigationBarTests;
-			sourceTree = "<group>";
-		};
-		D869093826B2CDF20089D924 /* CustomNavigationBarUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D869093926B2CDF20089D924 /* CustomNavigationBarUITests.swift */,
-				D869093B26B2CDF20089D924 /* Info.plist */,
-			);
-			path = CustomNavigationBarUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +90,6 @@
 			productReference = D869091426B2CDE20089D924 /* CustomNavigationBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D869092926B2CDF20089D924 /* CustomNavigationBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D869094126B2CDF20089D924 /* Build configuration list for PBXNativeTarget "CustomNavigationBarTests" */;
-			buildPhases = (
-				D869092626B2CDF20089D924 /* Sources */,
-				D869092726B2CDF20089D924 /* Frameworks */,
-				D869092826B2CDF20089D924 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D869092C26B2CDF20089D924 /* PBXTargetDependency */,
-			);
-			name = CustomNavigationBarTests;
-			productName = CustomNavigationBarTests;
-			productReference = D869092A26B2CDF20089D924 /* CustomNavigationBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D869093426B2CDF20089D924 /* CustomNavigationBarUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D869094426B2CDF20089D924 /* Build configuration list for PBXNativeTarget "CustomNavigationBarUITests" */;
-			buildPhases = (
-				D869093126B2CDF20089D924 /* Sources */,
-				D869093226B2CDF20089D924 /* Frameworks */,
-				D869093326B2CDF20089D924 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D869093726B2CDF20089D924 /* PBXTargetDependency */,
-			);
-			name = CustomNavigationBarUITests;
-			productName = CustomNavigationBarUITests;
-			productReference = D869093526B2CDF20089D924 /* CustomNavigationBarUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,14 +101,6 @@
 				TargetAttributes = {
 					D869091326B2CDE20089D924 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					D869092926B2CDF20089D924 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = D869091326B2CDE20089D924;
-					};
-					D869093426B2CDF20089D924 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = D869091326B2CDE20089D924;
 					};
 				};
 			};
@@ -223,8 +118,6 @@
 			projectRoot = "";
 			targets = (
 				D869091326B2CDE20089D924 /* CustomNavigationBar */,
-				D869092926B2CDF20089D924 /* CustomNavigationBarTests */,
-				D869093426B2CDF20089D924 /* CustomNavigationBarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +129,6 @@
 			files = (
 				D869092426B2CDF20089D924 /* LaunchScreen.storyboard in Resources */,
 				D869092126B2CDF20089D924 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D869092826B2CDF20089D924 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D869093326B2CDF20089D924 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,36 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D869092626B2CDF20089D924 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D869092F26B2CDF20089D924 /* CustomNavigationBarTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D869093126B2CDF20089D924 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D869093A26B2CDF20089D924 /* CustomNavigationBarUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D869092C26B2CDF20089D924 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D869091326B2CDE20089D924 /* CustomNavigationBar */;
-			targetProxy = D869092B26B2CDF20089D924 /* PBXContainerItemProxy */;
-		};
-		D869093726B2CDF20089D924 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D869091326B2CDE20089D924 /* CustomNavigationBar */;
-			targetProxy = D869093626B2CDF20089D924 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D869092226B2CDF20089D924 /* LaunchScreen.storyboard */ = {
@@ -465,90 +315,6 @@
 			};
 			name = Release;
 		};
-		D869094226B2CDF20089D924 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J35TQ48R5;
-				INFOPLIST_FILE = CustomNavigationBarTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = soulWave.CustomNavigationBarTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomNavigationBar.app/CustomNavigationBar";
-			};
-			name = Debug;
-		};
-		D869094326B2CDF20089D924 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J35TQ48R5;
-				INFOPLIST_FILE = CustomNavigationBarTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = soulWave.CustomNavigationBarTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomNavigationBar.app/CustomNavigationBar";
-			};
-			name = Release;
-		};
-		D869094526B2CDF20089D924 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J35TQ48R5;
-				INFOPLIST_FILE = CustomNavigationBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = soulWave.CustomNavigationBarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomNavigationBar;
-			};
-			name = Debug;
-		};
-		D869094626B2CDF20089D924 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9J35TQ48R5;
-				INFOPLIST_FILE = CustomNavigationBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = soulWave.CustomNavigationBarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomNavigationBar;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,24 +332,6 @@
 			buildConfigurations = (
 				D869093F26B2CDF20089D924 /* Debug */,
 				D869094026B2CDF20089D924 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D869094126B2CDF20089D924 /* Build configuration list for PBXNativeTarget "CustomNavigationBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D869094226B2CDF20089D924 /* Debug */,
-				D869094326B2CDF20089D924 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D869094426B2CDF20089D924 /* Build configuration list for PBXNativeTarget "CustomNavigationBarUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D869094526B2CDF20089D924 /* Debug */,
-				D869094626B2CDF20089D924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
