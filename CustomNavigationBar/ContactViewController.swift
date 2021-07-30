@@ -12,23 +12,42 @@ class ContactViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = #colorLiteral(red: 0.9490196078, green: 0.9490196078, blue: 0.968627451, alpha: 1)
+        view.backgroundColor = #colorLiteral(
+            red: 0.9490196078,
+            green: 0.9490196078,
+            blue: 0.968627451,
+            alpha: 1
+        )
 
+        setupViews()
+    }
+    
+    private func setupViews() {
         createCustomNavigationBar()
         
-        let AudioRightButton = createCustomButton(imageName: "phone", selector: #selector(AudioRightButtonTapped))
-        let VideoRightButton = createCustomButton(imageName: "video", selector: #selector(VideoRightButtonTapped))
-        let customBarTitleView = createCustomTitleView(contactName: "Swiftbook", contactDescription: "New lesson...", contactImage: "swift")
+        let audioRightButton = createCustomButton(
+            imageName: "phone",
+            selector: #selector(audioRightButtonTapped)
+        )
+        let videoRightButton = createCustomButton(
+            imageName: "video",
+            selector: #selector(videoRightButtonTapped)
+        )
+        let customBarTitleView = createCustomTitleView(
+            contactName: "Swiftbook",
+            contactDescription: "New lesson...",
+            contactImage: "swift"
+        )
 
-        navigationItem.rightBarButtonItems = [AudioRightButton, VideoRightButton]
+        navigationItem.rightBarButtonItems = [audioRightButton, videoRightButton]
         navigationItem.titleView = customBarTitleView
     }
     
-    @objc func AudioRightButtonTapped() {
+    @objc private func audioRightButtonTapped() {
         print("AudioRightButtonTapped")
     }
     
-    @objc func VideoRightButtonTapped() {
+    @objc private func videoRightButtonTapped() {
         print("VideoRightButtonTapped")
     }
 }
