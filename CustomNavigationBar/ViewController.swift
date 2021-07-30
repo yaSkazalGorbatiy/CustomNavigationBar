@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let contactButton: UIButton = {
+    private let contactButton: UIButton = {
         let button = UIButton()
         button.setTitle("Go to contact", for: .normal)
         button.setTitleColor(.black, for: .normal)
@@ -20,23 +20,34 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = #colorLiteral(red: 0.9490196078, green: 0.9490196078, blue: 0.968627451, alpha: 1)
+        view.backgroundColor = #colorLiteral(
+            red: 0.9490196078,
+            green: 0.9490196078,
+            blue: 0.968627451,
+            alpha: 1
+        )
         
-        title = "Custom NavBar"
+        setupViews()
+        setConstraints()
         
-        setConstraint()
-        
-        contactButton.addTarget(self, action: #selector(contactButtonTapped), for: .touchUpInside)
+        contactButton.addTarget(
+            self,
+            action: #selector(contactButtonTapped),
+            for: .touchUpInside
+        )
     }
     
-    @objc func contactButtonTapped() {
+    @objc private func contactButtonTapped() {
         let contactViewController = ContactViewController()
-        navigationController?.navigationBar.topItem?.title = ""
         navigationController?.pushViewController(contactViewController, animated: true)
     }
     
-    func setConstraint() {
+    private func setupViews() {
+        title = "Custom NavBar"
         view.addSubview(contactButton)
+    }
+    
+    private func setConstraints() {
         NSLayoutConstraint.activate([
             contactButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             contactButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
