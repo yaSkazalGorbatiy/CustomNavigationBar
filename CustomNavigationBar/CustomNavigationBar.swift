@@ -7,11 +7,15 @@
 
 import UIKit
 
-extension UIViewController {
+extension UIViewController { //
     
     func createCustomNavigationBar() {
-        
-        navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.9358197607, green: 0.9358197607, blue: 0.9358197607, alpha: 1)  
+        navigationController?.navigationBar.barTintColor = #colorLiteral(
+            red: 0.9358197607,
+            green: 0.9358197607,
+            blue: 0.9358197607,
+            alpha: 1
+        )
     }
     
     func createCustomTitleView(contactName: String, contactDescription: String, contactImage: String) -> UIView {
@@ -34,7 +38,12 @@ extension UIViewController {
         descriptionLabel.text = contactDescription
         descriptionLabel.frame = CGRect(x: 55, y: 21, width: 220, height: 20)
         descriptionLabel.font = UIFont.systemFont(ofSize: 14)
-        descriptionLabel.textColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        descriptionLabel.textColor = #colorLiteral(
+            red: 0.501960814,
+            green: 0.501960814,
+            blue: 0.501960814,
+            alpha: 1
+        )
         view.addSubview(descriptionLabel)
         
         return view
@@ -42,7 +51,10 @@ extension UIViewController {
     
     func createCustomButton(imageName: String, selector: Selector) -> UIBarButtonItem {
         let button = UIButton(type: .system)
-        button.setImage(UIImage(systemName: imageName)?.withRenderingMode(.alwaysTemplate), for: .normal)
+        button.setImage(
+            UIImage(systemName: imageName)?.withRenderingMode(.alwaysTemplate),
+            for: .normal
+        )
         button.tintColor = .systemBlue
         button.imageView?.contentMode = .scaleAspectFit
         button.contentHorizontalAlignment = .fill
@@ -50,7 +62,6 @@ extension UIViewController {
         button.addTarget(self, action: selector, for: .touchUpInside)
         
         let menuBarItem = UIBarButtonItem(customView: button)
-        menuBarItem.customView?.frame = CGRect(x: 0, y: 0, width: 25, height: 25)
         return menuBarItem
     }
 }
